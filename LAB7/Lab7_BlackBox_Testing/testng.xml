@@ -1,0 +1,9 @@
+<!-- testng.xml: cấu hình chạy toàn bộ test suite -->
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="FullSuite">
+    <test name="AllTests">
+        <packages>
+            <package name="dtm.tests"/>
+        </packages>
+    </test>
+</suite>
