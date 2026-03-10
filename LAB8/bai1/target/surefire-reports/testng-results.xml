@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-10T14:06:00 ICT" name="Suite1" finished-at="2026-03-10T14:06:12 ICT" duration-ms="12508">
+    <groups>
+    </groups>
+    <test started-at="2026-03-10T14:06:00 ICT" name="TitleTest" finished-at="2026-03-10T14:06:12 ICT" duration-ms="12508">
+      <class name="dtm.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.LoginTest@7c729a55]" started-at="2026-03-10T14:06:00 ICT" name="setUp" finished-at="2026-03-10T14:06:02 ICT" duration-ms="2616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginEmptyPassword()[pri:0, instance:dtm.LoginTest@7c729a55]" started-at="2026-03-10T14:06:02 ICT" name="testLoginEmptyPassword" description="Bo trong password" finished-at="2026-03-10T14:06:03 ICT" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginEmptyPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.LoginTest@7c729a55]" started-at="2026-03-10T14:06:03 ICT" name="tearDown" finished-at="2026-03-10T14:06:03 ICT" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.LoginTest@7c729a55]" started-at="2026-03-10T14:06:03 ICT" name="setUp" finished-at="2026-03-10T14:06:05 ICT" duration-ms="1751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginEmptyUsername()[pri:0, instance:dtm.LoginTest@7c729a55]" started-at="2026-03-10T14:06:05 ICT" name="testLoginEmptyUsername" description="Bo trong username" finished-at="2026-03-10T14:06:05 ICT" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginEmptyUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.LoginTest@7c729a55]" started-at="2026-03-10T14:06:05 ICT" name="tearDown" finished-at="2026-03-10T14:06:05 ICT" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.LoginTest@7c729a55]" started-at="2026-03-10T14:06:05 ICT" name="setUp" finished-at="2026-03-10T14:06:07 ICT" duration-ms="1629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginLockedUser()[pri:0, instance:dtm.LoginTest@7c729a55]" started-at="2026-03-10T14:06:07 ICT" name="testLoginLockedUser" description="Dang nhap voi tai khoan bi khoa" finished-at="2026-03-10T14:06:07 ICT" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginLockedUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.LoginTest@7c729a55]" started-at="2026-03-10T14:06:07 ICT" name="tearDown" finished-at="2026-03-10T14:06:07 ICT" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.LoginTest@7c729a55]" started-at="2026-03-10T14:06:07 ICT" name="setUp" finished-at="2026-03-10T14:06:09 ICT" duration-ms="1863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginSuccess()[pri:0, instance:dtm.LoginTest@7c729a55]" started-at="2026-03-10T14:06:09 ICT" name="testLoginSuccess" description="Dang nhap thanh cong voi tai khoan hop le" finished-at="2026-03-10T14:06:10 ICT" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.LoginTest@7c729a55]" started-at="2026-03-10T14:06:10 ICT" name="tearDown" finished-at="2026-03-10T14:06:10 ICT" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.LoginTest@7c729a55]" started-at="2026-03-10T14:06:10 ICT" name="setUp" finished-at="2026-03-10T14:06:12 ICT" duration-ms="1585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWrongPassword()[pri:0, instance:dtm.LoginTest@7c729a55]" started-at="2026-03-10T14:06:12 ICT" name="testLoginWrongPassword" description="Dang nhap sai mat khau" finished-at="2026-03-10T14:06:12 ICT" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWrongPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.LoginTest@7c729a55]" started-at="2026-03-10T14:06:12 ICT" name="tearDown" finished-at="2026-03-10T14:06:12 ICT" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dtm.LoginTest -->
+    </test> <!-- TitleTest -->
+  </suite> <!-- Suite1 -->
+</testng-results>

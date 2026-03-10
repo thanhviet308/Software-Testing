@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-10T15:33:36 ICT" name="Suite7" finished-at="2026-03-10T15:33:36 ICT" duration-ms="79">
+    <groups>
+    </groups>
+    <test started-at="2026-03-10T15:33:36 ICT" name="OrderProcessorTest" finished-at="2026-03-10T15:33:36 ICT" duration-ms="79">
+      <class name="OrderProcessorTest">
+        <test-method signature="testMCDC_Coupon_Empty()[pri:0, instance:OrderProcessorTest@56528192]" started-at="2026-03-10T15:33:36 ICT" name="testMCDC_Coupon_Empty" description="MC/DC B: couponCode rong -&gt; khong vao nhanh coupon" finished-at="2026-03-10T15:33:36 ICT" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMCDC_Coupon_Empty -->
+        <test-method signature="testMCDC_Coupon_Null()[pri:0, instance:OrderProcessorTest@56528192]" started-at="2026-03-10T15:33:36 ICT" name="testMCDC_Coupon_Null" description="MC/DC A: couponCode = null -&gt; khong vao nhanh coupon" finished-at="2026-03-10T15:33:36 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMCDC_Coupon_Null -->
+        <test-method signature="testMCDC_Coupon_Sale10()[pri:0, instance:OrderProcessorTest@56528192]" started-at="2026-03-10T15:33:36 ICT" name="testMCDC_Coupon_Sale10" description="MC/DC D3: coupon SALE10" finished-at="2026-03-10T15:33:36 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMCDC_Coupon_Sale10 -->
+        <test-method signature="testMCDC_Coupon_Sale20()[pri:0, instance:OrderProcessorTest@56528192]" started-at="2026-03-10T15:33:36 ICT" name="testMCDC_Coupon_Sale20" description="MC/DC D4: coupon SALE20" finished-at="2026-03-10T15:33:36 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMCDC_Coupon_Sale20 -->
+        <test-method signature="testPath1_EmptyCart_ListRong()[pri:0, instance:OrderProcessorTest@56528192]" started-at="2026-03-10T15:33:36 ICT" name="testPath1_EmptyCart_ListRong" description="Path 1b: Gio hang rong -&gt; nem exception" finished-at="2026-03-10T15:33:36 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath1_EmptyCart_ListRong -->
+        <test-method signature="testPath1_EmptyCart_Null()[pri:0, instance:OrderProcessorTest@56528192]" started-at="2026-03-10T15:33:36 ICT" name="testPath1_EmptyCart_Null" description="Path 1: Gio hang null -&gt; nem exception" finished-at="2026-03-10T15:33:36 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath1_EmptyCart_Null -->
+        <test-method signature="testPath2_NoCoupon_NoMember_OnlineShip()[pri:0, instance:OrderProcessorTest@56528192]" started-at="2026-03-10T15:33:36 ICT" name="testPath2_NoCoupon_NoMember_OnlineShip" description="Path 2: Khong coupon, khong member, total &lt; 500k, online" finished-at="2026-03-10T15:33:36 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath2_NoCoupon_NoMember_OnlineShip -->
+        <test-method signature="testPath3_NoCoupon_NoMember_CODShip()[pri:0, instance:OrderProcessorTest@56528192]" started-at="2026-03-10T15:33:36 ICT" name="testPath3_NoCoupon_NoMember_CODShip" description="Path 3: Khong coupon, khong member, total &lt; 500k, COD" finished-at="2026-03-10T15:33:36 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath3_NoCoupon_NoMember_CODShip -->
+        <test-method signature="testPath4_Sale10_NoMember_Online()[pri:0, instance:OrderProcessorTest@56528192]" started-at="2026-03-10T15:33:36 ICT" name="testPath4_Sale10_NoMember_Online" description="Path 4: Coupon SALE10, khong member, online" finished-at="2026-03-10T15:33:36 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath4_Sale10_NoMember_Online -->
+        <test-method signature="testPath5_Sale20_NoMember_COD()[pri:0, instance:OrderProcessorTest@56528192]" started-at="2026-03-10T15:33:36 ICT" name="testPath5_Sale20_NoMember_COD" description="Path 5: Coupon SALE20, khong member, COD" finished-at="2026-03-10T15:33:36 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath5_Sale20_NoMember_COD -->
+        <test-method signature="testPath6_InvalidCoupon()[pri:0, instance:OrderProcessorTest@56528192]" started-at="2026-03-10T15:33:36 ICT" name="testPath6_InvalidCoupon" description="Path 6: Coupon khong hop le -&gt; nem exception" finished-at="2026-03-10T15:33:36 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath6_InvalidCoupon -->
+        <test-method signature="testPath7_GoldMember_Online()[pri:0, instance:OrderProcessorTest@56528192]" started-at="2026-03-10T15:33:36 ICT" name="testPath7_GoldMember_Online" description="Path 7: Member GOLD, khong coupon, online" finished-at="2026-03-10T15:33:36 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath7_GoldMember_Online -->
+        <test-method signature="testPath8_PlatinumMember_COD()[pri:0, instance:OrderProcessorTest@56528192]" started-at="2026-03-10T15:33:36 ICT" name="testPath8_PlatinumMember_COD" description="Path 8: Member PLATINUM, khong coupon, COD" finished-at="2026-03-10T15:33:36 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath8_PlatinumMember_COD -->
+        <test-method signature="testPath9_NoShipWhenTotalGe500k()[pri:0, instance:OrderProcessorTest@56528192]" started-at="2026-03-10T15:33:36 ICT" name="testPath9_NoShipWhenTotalGe500k" description="Path 9: Tong &gt;= 500k nen khong tinh phi ship" finished-at="2026-03-10T15:33:36 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath9_NoShipWhenTotalGe500k -->
+      </class> <!-- OrderProcessorTest -->
+    </test> <!-- OrderProcessorTest -->
+  </suite> <!-- Suite7 -->
+</testng-results>

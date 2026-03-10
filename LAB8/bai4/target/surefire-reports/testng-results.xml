@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-10T15:02:45 ICT" name="Suite4" finished-at="2026-03-10T15:02:45 ICT" duration-ms="66">
+    <groups>
+    </groups>
+    <test started-at="2026-03-10T15:02:45 ICT" name="PhiShipBasisPathTest" finished-at="2026-03-10T15:02:45 ICT" duration-ms="66">
+      <class name="PhiShipBasisPathTest">
+        <test-method signature="testPath1_InvalidWeight()[pri:0, instance:PhiShipBasisPathTest@7f010382]" started-at="2026-03-10T15:02:45 ICT" name="testPath1_InvalidWeight" description="Path 1: Trong luong khong hop le" finished-at="2026-03-10T15:02:45 ICT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath1_InvalidWeight -->
+        <test-method signature="testPath2()[pri:0, instance:PhiShipBasisPathTest@7f010382]" started-at="2026-03-10T15:02:45 ICT" name="testPath2" description="Path 2: Noi thanh &lt;=5kg khong member" finished-at="2026-03-10T15:02:45 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath2 -->
+        <test-method signature="testPath3()[pri:0, instance:PhiShipBasisPathTest@7f010382]" started-at="2026-03-10T15:02:45 ICT" name="testPath3" description="Path 3: Noi thanh &gt;5kg" finished-at="2026-03-10T15:02:45 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath3 -->
+        <test-method signature="testPath4()[pri:0, instance:PhiShipBasisPathTest@7f010382]" started-at="2026-03-10T15:02:45 ICT" name="testPath4" description="Path 4: Ngoai thanh &lt;=3kg" finished-at="2026-03-10T15:02:45 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath4 -->
+        <test-method signature="testPath5()[pri:0, instance:PhiShipBasisPathTest@7f010382]" started-at="2026-03-10T15:02:45 ICT" name="testPath5" description="Path 5: Ngoai thanh &gt;3kg" finished-at="2026-03-10T15:02:45 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath5 -->
+        <test-method signature="testPath6()[pri:0, instance:PhiShipBasisPathTest@7f010382]" started-at="2026-03-10T15:02:45 ICT" name="testPath6" description="Path 6: Tinh khac &lt;=2kg" finished-at="2026-03-10T15:02:45 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath6 -->
+        <test-method signature="testPath7()[pri:0, instance:PhiShipBasisPathTest@7f010382]" started-at="2026-03-10T15:02:45 ICT" name="testPath7" description="Path 7: Tinh khac &gt;2kg" finished-at="2026-03-10T15:02:45 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath7 -->
+        <test-method signature="testPath8()[pri:0, instance:PhiShipBasisPathTest@7f010382]" started-at="2026-03-10T15:02:45 ICT" name="testPath8" description="Path 8: Member giam 10%" finished-at="2026-03-10T15:02:45 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath8 -->
+      </class> <!-- PhiShipBasisPathTest -->
+    </test> <!-- PhiShipBasisPathTest -->
+  </suite> <!-- Suite4 -->
+</testng-results>

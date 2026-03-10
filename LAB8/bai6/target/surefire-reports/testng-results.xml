@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-10T15:19:40 ICT" name="Suite6" finished-at="2026-03-10T15:19:40 ICT" duration-ms="82">
+    <groups>
+    </groups>
+    <test started-at="2026-03-10T15:19:40 ICT" name="PhoneValidatorTest" finished-at="2026-03-10T15:19:40 ICT" duration-ms="82">
+      <class name="PhoneValidatorTest">
+        <test-method signature="testBoundaryPrefix03()[pri:0, instance:PhoneValidatorTest@670002]" started-at="2026-03-10T15:19:40 ICT" name="testBoundaryPrefix03" description="TC9: dau so 03 hop le -&gt; true" finished-at="2026-03-10T15:19:40 ICT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBoundaryPrefix03 -->
+        <test-method signature="testBoundaryPrefix05()[pri:0, instance:PhoneValidatorTest@670002]" started-at="2026-03-10T15:19:40 ICT" name="testBoundaryPrefix05" description="TC10: dau so 05 hop le -&gt; true" finished-at="2026-03-10T15:19:40 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBoundaryPrefix05 -->
+        <test-method signature="testEmptyPhone()[pri:0, instance:PhoneValidatorTest@670002]" started-at="2026-03-10T15:19:40 ICT" name="testEmptyPhone" description="TC2: phone rong -&gt; false" finished-at="2026-03-10T15:19:40 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyPhone -->
+        <test-method signature="testInvalidCharacter()[pri:0, instance:PhoneValidatorTest@670002]" started-at="2026-03-10T15:19:40 ICT" name="testInvalidCharacter" description="TC3: phone co ky tu khong hop le -&gt; false" finished-at="2026-03-10T15:19:40 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidCharacter -->
+        <test-method signature="testNullPhone()[pri:0, instance:PhoneValidatorTest@670002]" started-at="2026-03-10T15:19:40 ICT" name="testNullPhone" description="TC1: phone = null -&gt; false" finished-at="2026-03-10T15:19:40 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNullPhone -->
+        <test-method signature="testOnlySpaces()[pri:0, instance:PhoneValidatorTest@670002]" started-at="2026-03-10T15:19:40 ICT" name="testOnlySpaces" description="TC12: phone chi co khoang trang -&gt; false" finished-at="2026-03-10T15:19:40 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOnlySpaces -->
+        <test-method signature="testPhoneWithSpaces()[pri:0, instance:PhoneValidatorTest@670002]" started-at="2026-03-10T15:19:40 ICT" name="testPhoneWithSpaces" description="TC11: phone co khoang trang hop le -&gt; true" finished-at="2026-03-10T15:19:40 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPhoneWithSpaces -->
+        <test-method signature="testValidPhoneNormal()[pri:0, instance:PhoneValidatorTest@670002]" started-at="2026-03-10T15:19:40 ICT" name="testValidPhoneNormal" description="TC8: phone dang 0 hop le -&gt; true" finished-at="2026-03-10T15:19:40 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidPhoneNormal -->
+        <test-method signature="testValidPhoneWith84()[pri:0, instance:PhoneValidatorTest@670002]" started-at="2026-03-10T15:19:40 ICT" name="testValidPhoneWith84" description="TC4: phone bat dau +84 hop le -&gt; true" finished-at="2026-03-10T15:19:40 ICT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidPhoneWith84 -->
+        <test-method signature="testWrongLength()[pri:0, instance:PhoneValidatorTest@670002]" started-at="2026-03-10T15:19:40 ICT" name="testWrongLength" description="TC6: do dai sai -&gt; false" finished-at="2026-03-10T15:19:40 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrongLength -->
+        <test-method signature="testWrongNetworkPrefix()[pri:0, instance:PhoneValidatorTest@670002]" started-at="2026-03-10T15:19:40 ICT" name="testWrongNetworkPrefix" description="TC7: dau so khong hop le -&gt; false" finished-at="2026-03-10T15:19:40 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrongNetworkPrefix -->
+        <test-method signature="testWrongPrefix()[pri:0, instance:PhoneValidatorTest@670002]" started-at="2026-03-10T15:19:40 ICT" name="testWrongPrefix" description="TC5: phone khong bat dau bang 0 hoac +84 -&gt; false" finished-at="2026-03-10T15:19:40 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrongPrefix -->
+      </class> <!-- PhoneValidatorTest -->
+    </test> <!-- PhoneValidatorTest -->
+  </suite> <!-- Suite6 -->
+</testng-results>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-10T14:30:17 ICT" name="Parallel_Suite" finished-at="2026-03-10T14:30:44 ICT" duration-ms="26502">
+    <groups>
+    </groups>
+    <test started-at="2026-03-10T14:30:17 ICT" name="Parallel Tests" finished-at="2026-03-10T14:30:44 ICT" duration-ms="26502">
+      <class name="dtm.ParallelLoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.ParallelLoginTest@3835c46]" started-at="2026-03-10T14:30:18 ICT" name="setUp" finished-at="2026-03-10T14:30:21 ICT" duration-ms="3127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginPageTitleParallel()[pri:0, instance:dtm.ParallelLoginTest@3835c46]" started-at="2026-03-10T14:30:21 ICT" name="testLoginPageTitleParallel" description="Kiem tra title trang login trong che do chay song song" finished-at="2026-03-10T14:30:21 ICT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPageTitleParallel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.ParallelLoginTest@3835c46]" started-at="2026-03-10T14:30:21 ICT" name="tearDown" finished-at="2026-03-10T14:30:31 ICT" duration-ms="10327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.ParallelLoginTest@3835c46]" started-at="2026-03-10T14:30:31 ICT" name="setUp" finished-at="2026-03-10T14:30:33 ICT" duration-ms="1902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginSuccessParallel()[pri:0, instance:dtm.ParallelLoginTest@3835c46]" started-at="2026-03-10T14:30:33 ICT" name="testLoginSuccessParallel" description="Dang nhap thanh cong trong che do chay song song" finished-at="2026-03-10T14:30:33 ICT" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccessParallel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.ParallelLoginTest@3835c46]" started-at="2026-03-10T14:30:33 ICT" name="tearDown" finished-at="2026-03-10T14:30:44 ICT" duration-ms="10178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dtm.ParallelLoginTest -->
+      <class name="dtm.ParallelCartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.ParallelCartTest@4cc451f2]" started-at="2026-03-10T14:30:18 ICT" name="setUp" finished-at="2026-03-10T14:30:21 ICT" duration-ms="3403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddToCartParallel()[pri:0, instance:dtm.ParallelCartTest@4cc451f2]" started-at="2026-03-10T14:30:21 ICT" name="testAddToCartParallel" description="Them san pham vao gio hang trong che do chay song song" finished-at="2026-03-10T14:30:21 ICT" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCartParallel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.ParallelCartTest@4cc451f2]" started-at="2026-03-10T14:30:21 ICT" name="tearDown" finished-at="2026-03-10T14:30:31 ICT" duration-ms="10211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.ParallelCartTest@4cc451f2]" started-at="2026-03-10T14:30:31 ICT" name="setUp" finished-at="2026-03-10T14:30:34 ICT" duration-ms="2451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInventoryUrlParallel()[pri:0, instance:dtm.ParallelCartTest@4cc451f2]" started-at="2026-03-10T14:30:34 ICT" name="testInventoryUrlParallel" description="Kiem tra URL trang inventory trong che do chay song song" finished-at="2026-03-10T14:30:34 ICT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInventoryUrlParallel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.ParallelCartTest@4cc451f2]" started-at="2026-03-10T14:30:34 ICT" name="tearDown" finished-at="2026-03-10T14:30:44 ICT" duration-ms="10211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dtm.ParallelCartTest -->
+    </test> <!-- Parallel Tests -->
+  </suite> <!-- Parallel_Suite -->
+</testng-results>
