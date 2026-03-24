@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-24T14:14:58 ICT" name="Surefire suite" finished-at="2026-03-24T14:15:01 ICT" duration-ms="3360">
+    <groups>
+    </groups>
+    <test started-at="2026-03-24T14:14:58 ICT" name="Surefire test" finished-at="2026-03-24T14:15:01 ICT" duration-ms="3360">
+      <class name="api.UserCrudTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.UserCrudTest@703580bf]" started-at="2026-03-24T14:14:58 ICT" name="setup" finished-at="2026-03-24T14:14:59 ICT" duration-ms="1533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCreateUser()[pri:1, instance:api.UserCrudTest@703580bf]" started-at="2026-03-24T14:14:59 ICT" name="testCreateUser" finished-at="2026-03-24T14:15:01 ICT" duration-ms="1536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method signature="testUpdateUser()[pri:2, instance:api.UserCrudTest@703580bf]" started-at="2026-03-24T14:15:01 ICT" name="testUpdateUser" finished-at="2026-03-24T14:15:01 ICT" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method signature="testPatchUser()[pri:3, instance:api.UserCrudTest@703580bf]" started-at="2026-03-24T14:15:01 ICT" name="testPatchUser" finished-at="2026-03-24T14:15:01 ICT" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPatchUser -->
+        <test-method signature="testDeleteUser()[pri:4, instance:api.UserCrudTest@703580bf]" started-at="2026-03-24T14:15:01 ICT" name="testDeleteUser" finished-at="2026-03-24T14:15:01 ICT" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+        <test-method signature="testPostThenGet()[pri:5, instance:api.UserCrudTest@703580bf]" started-at="2026-03-24T14:15:01 ICT" name="testPostThenGet" finished-at="2026-03-24T14:15:01 ICT" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostThenGet -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:api.UserCrudTest@703580bf]" started-at="2026-03-24T14:15:01 ICT" name="teardown" finished-at="2026-03-24T14:15:01 ICT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- api.UserCrudTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

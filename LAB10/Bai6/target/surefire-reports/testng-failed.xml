@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="integration.ApiUiIntegrationTest">
+        <methods>
+          <include name="loginViaApiPrecondition"/>
+          <include name="testFullUiFlowOnlyWhenApiAlive"/>
+          <include name="testUiLoginOnlyWhenApiPreconditionPass"/>
+          <include name="setUpBrowser"/>
+          <include name="setupApiConfig"/>
+          <include name="tearDownBrowser"/>
+          <include name="stopApiStub"/>
+          <include name="startApiStub"/>
+          <include name="checkApiAlive"/>
+        </methods>
+      </class> <!-- integration.ApiUiIntegrationTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

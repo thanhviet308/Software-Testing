@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-24T14:41:24 ICT" name="Surefire suite" finished-at="2026-03-24T14:41:27 ICT" duration-ms="3441">
+    <groups>
+    </groups>
+    <test started-at="2026-03-24T14:41:24 ICT" name="Surefire test" finished-at="2026-03-24T14:41:27 ICT" duration-ms="3441">
+      <class name="api.LoginDataDrivenTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.LoginDataDrivenTest@57c758ac]" started-at="2026-03-24T14:41:27 ICT" name="setup" finished-at="2026-03-24T14:41:27 ICT" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginScenarios(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:api.LoginDataDrivenTest@57c758ac]" started-at="2026-03-24T14:41:27 ICT" name="testLoginScenarios" data-provider="loginScenarios" finished-at="2026-03-24T14:41:27 ICT" duration-ms="97" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eve.holt@reqres.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cityslicka]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginScenarios -->
+        <test-method signature="testLoginScenarios(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:api.LoginDataDrivenTest@57c758ac]" started-at="2026-03-24T14:41:27 ICT" name="testLoginScenarios" data-provider="loginScenarios" finished-at="2026-03-24T14:41:27 ICT" duration-ms="33" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eve.holt@reqres.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Missing password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginScenarios -->
+        <test-method signature="testLoginScenarios(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:api.LoginDataDrivenTest@57c758ac]" started-at="2026-03-24T14:41:27 ICT" name="testLoginScenarios" data-provider="loginScenarios" finished-at="2026-03-24T14:41:27 ICT" duration-ms="35" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cityslicka]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Missing email or username]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginScenarios -->
+        <test-method signature="testLoginScenarios(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:api.LoginDataDrivenTest@57c758ac]" started-at="2026-03-24T14:41:27 ICT" name="testLoginScenarios" data-provider="loginScenarios" finished-at="2026-03-24T14:41:27 ICT" duration-ms="29" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[notexist@reqres.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[user not found]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginScenarios -->
+        <test-method signature="testLoginScenarios(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:api.LoginDataDrivenTest@57c758ac]" started-at="2026-03-24T14:41:27 ICT" name="testLoginScenarios" data-provider="loginScenarios" finished-at="2026-03-24T14:41:27 ICT" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid-email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[user not found]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginScenarios -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:api.LoginDataDrivenTest@57c758ac]" started-at="2026-03-24T14:41:27 ICT" name="teardown" finished-at="2026-03-24T14:41:27 ICT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- api.LoginDataDrivenTest -->
+      <class name="api.AuthorizationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.AuthorizationTest@67a20f67]" started-at="2026-03-24T14:41:24 ICT" name="setup" finished-at="2026-03-24T14:41:25 ICT" duration-ms="1503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginMissingEmail()[pri:0, instance:api.AuthorizationTest@67a20f67]" started-at="2026-03-24T14:41:25 ICT" name="testLoginMissingEmail" finished-at="2026-03-24T14:41:27 ICT" duration-ms="1323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginMissingEmail -->
+        <test-method signature="testLoginMissingPassword()[pri:0, instance:api.AuthorizationTest@67a20f67]" started-at="2026-03-24T14:41:27 ICT" name="testLoginMissingPassword" finished-at="2026-03-24T14:41:27 ICT" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginMissingPassword -->
+        <test-method signature="testLoginSuccess()[pri:0, instance:api.AuthorizationTest@67a20f67]" started-at="2026-03-24T14:41:27 ICT" name="testLoginSuccess" finished-at="2026-03-24T14:41:27 ICT" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccess -->
+        <test-method signature="testRegisterMissingPassword()[pri:0, instance:api.AuthorizationTest@67a20f67]" started-at="2026-03-24T14:41:27 ICT" name="testRegisterMissingPassword" finished-at="2026-03-24T14:41:27 ICT" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterMissingPassword -->
+        <test-method signature="testRegisterSuccess()[pri:0, instance:api.AuthorizationTest@67a20f67]" started-at="2026-03-24T14:41:27 ICT" name="testRegisterSuccess" finished-at="2026-03-24T14:41:27 ICT" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterSuccess -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:api.AuthorizationTest@67a20f67]" started-at="2026-03-24T14:41:27 ICT" name="teardown" finished-at="2026-03-24T14:41:27 ICT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- api.AuthorizationTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

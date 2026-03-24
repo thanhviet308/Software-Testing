@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-24T14:57:18 ICT" name="Surefire suite" finished-at="2026-03-24T14:57:21 ICT" duration-ms="3549">
+    <groups>
+    </groups>
+    <test started-at="2026-03-24T14:57:18 ICT" name="Surefire test" finished-at="2026-03-24T14:57:21 ICT" duration-ms="3549">
+      <class name="api.PerformanceAssertionTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.PerformanceAssertionTest@20140db9]" started-at="2026-03-24T14:57:18 ICT" name="setup" finished-at="2026-03-24T14:57:19 ICT" duration-ms="1572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testMonitoringUsersApi10Times()[pri:0, instance:api.PerformanceAssertionTest@20140db9]" started-at="2026-03-24T14:57:19 ICT" name="testMonitoringUsersApi10Times" finished-at="2026-03-24T14:57:20 ICT" duration-ms="960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMonitoringUsersApi10Times -->
+        <test-method signature="testSlaForApis(java.lang.String,java.lang.String,int,long)[pri:0, instance:api.PerformanceAssertionTest@20140db9]" started-at="2026-03-24T14:57:20 ICT" name="testSlaForApis" data-provider="apiSlaData" finished-at="2026-03-24T14:57:21 ICT" duration-ms="717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GET]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/users]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSlaForApis -->
+        <test-method signature="testSlaForApis(java.lang.String,java.lang.String,int,long)[pri:0, instance:api.PerformanceAssertionTest@20140db9]" started-at="2026-03-24T14:57:21 ICT" name="testSlaForApis" data-provider="apiSlaData" finished-at="2026-03-24T14:57:21 ICT" duration-ms="32" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GET]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/users/2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1500]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSlaForApis -->
+        <test-method signature="testSlaForApis(java.lang.String,java.lang.String,int,long)[pri:0, instance:api.PerformanceAssertionTest@20140db9]" started-at="2026-03-24T14:57:21 ICT" name="testSlaForApis" data-provider="apiSlaData" finished-at="2026-03-24T14:57:21 ICT" duration-ms="51" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/users]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[201]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSlaForApis -->
+        <test-method signature="testSlaForApis(java.lang.String,java.lang.String,int,long)[pri:0, instance:api.PerformanceAssertionTest@20140db9]" started-at="2026-03-24T14:57:21 ICT" name="testSlaForApis" data-provider="apiSlaData" finished-at="2026-03-24T14:57:21 ICT" duration-ms="32" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSlaForApis -->
+        <test-method signature="testSlaForApis(java.lang.String,java.lang.String,int,long)[pri:0, instance:api.PerformanceAssertionTest@20140db9]" started-at="2026-03-24T14:57:21 ICT" name="testSlaForApis" data-provider="apiSlaData" finished-at="2026-03-24T14:57:21 ICT" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DELETE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/users/2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[204]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSlaForApis -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:api.PerformanceAssertionTest@20140db9]" started-at="2026-03-24T14:57:21 ICT" name="teardown" finished-at="2026-03-24T14:57:21 ICT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- api.PerformanceAssertionTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

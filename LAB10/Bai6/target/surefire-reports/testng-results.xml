@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-24T15:19:30 ICT" name="Surefire suite" finished-at="2026-03-24T15:19:38 ICT" duration-ms="8206">
+    <groups>
+      <group name="partA">
+        <method signature="ApiUiIntegrationTest.testUiLoginOnlyWhenApiPreconditionPass()[pri:0, instance:integration.ApiUiIntegrationTest@21de60b4]" name="testUiLoginOnlyWhenApiPreconditionPass" class="integration.ApiUiIntegrationTest"/>
+      </group> <!-- partA -->
+      <group name="partB">
+        <method signature="ApiUiIntegrationTest.testFullUiFlowOnlyWhenApiAlive()[pri:0, instance:integration.ApiUiIntegrationTest@21de60b4]" name="testFullUiFlowOnlyWhenApiAlive" class="integration.ApiUiIntegrationTest"/>
+      </group> <!-- partB -->
+    </groups>
+    <test started-at="2026-03-24T15:19:30 ICT" name="Surefire test" finished-at="2026-03-24T15:19:38 ICT" duration-ms="8206">
+      <class name="integration.ApiUiIntegrationTest">
+        <test-method is-config="true" signature="startApiStub()[pri:0, instance:integration.ApiUiIntegrationTest@21de60b4]" started-at="2026-03-24T15:19:30 ICT" name="startApiStub" finished-at="2026-03-24T15:19:31 ICT" duration-ms="984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApiStub -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:integration.ApiUiIntegrationTest@21de60b4]" started-at="2026-03-24T15:19:31 ICT" name="setUpBrowser" finished-at="2026-03-24T15:19:32 ICT" duration-ms="1310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method is-config="true" signature="checkApiAlive()[pri:0, instance:integration.ApiUiIntegrationTest@21de60b4]" started-at="2026-03-24T15:19:32 ICT" name="checkApiAlive" finished-at="2026-03-24T15:19:33 ICT" duration-ms="1206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkApiAlive -->
+        <test-method is-config="true" signature="setupApiConfig()[pri:0, instance:integration.ApiUiIntegrationTest@21de60b4]" started-at="2026-03-24T15:19:33 ICT" name="setupApiConfig" finished-at="2026-03-24T15:19:33 ICT" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupApiConfig -->
+        <test-method signature="testFullUiFlowOnlyWhenApiAlive()[pri:0, instance:integration.ApiUiIntegrationTest@21de60b4]" started-at="2026-03-24T15:19:33 ICT" name="testFullUiFlowOnlyWhenApiAlive" finished-at="2026-03-24T15:19:34 ICT" duration-ms="1379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFullUiFlowOnlyWhenApiAlive -->
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:integration.ApiUiIntegrationTest@21de60b4]" started-at="2026-03-24T15:19:34 ICT" name="tearDownBrowser" finished-at="2026-03-24T15:19:35 ICT" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:integration.ApiUiIntegrationTest@21de60b4]" started-at="2026-03-24T15:19:35 ICT" name="setUpBrowser" finished-at="2026-03-24T15:19:35 ICT" duration-ms="687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method is-config="true" signature="loginViaApiPrecondition()[pri:0, instance:integration.ApiUiIntegrationTest@21de60b4]" started-at="2026-03-24T15:19:35 ICT" name="loginViaApiPrecondition" finished-at="2026-03-24T15:19:36 ICT" duration-ms="938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginViaApiPrecondition -->
+        <test-method is-config="true" signature="setupApiConfig()[pri:0, instance:integration.ApiUiIntegrationTest@21de60b4]" started-at="2026-03-24T15:19:36 ICT" name="setupApiConfig" finished-at="2026-03-24T15:19:36 ICT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupApiConfig -->
+        <test-method signature="testUiLoginOnlyWhenApiPreconditionPass()[pri:0, instance:integration.ApiUiIntegrationTest@21de60b4]" started-at="2026-03-24T15:19:36 ICT" name="testUiLoginOnlyWhenApiPreconditionPass" finished-at="2026-03-24T15:19:38 ICT" duration-ms="1201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUiLoginOnlyWhenApiPreconditionPass -->
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:integration.ApiUiIntegrationTest@21de60b4]" started-at="2026-03-24T15:19:38 ICT" name="tearDownBrowser" finished-at="2026-03-24T15:19:38 ICT" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+        <test-method is-config="true" signature="stopApiStub()[pri:0, instance:integration.ApiUiIntegrationTest@21de60b4]" started-at="2026-03-24T15:19:38 ICT" name="stopApiStub" finished-at="2026-03-24T15:19:38 ICT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopApiStub -->
+      </class> <!-- integration.ApiUiIntegrationTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

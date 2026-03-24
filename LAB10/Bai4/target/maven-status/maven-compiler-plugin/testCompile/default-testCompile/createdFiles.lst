@@ -1,0 +1,3 @@
+api\ApiBaseTest.class
+api\LoginDataDrivenTest.class
+api\AuthorizationTest.class

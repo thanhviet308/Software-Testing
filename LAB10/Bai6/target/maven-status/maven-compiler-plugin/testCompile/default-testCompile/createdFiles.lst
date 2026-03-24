@@ -1,0 +1,3 @@
+integration\ApiUiIntegrationTest.class
+integration\BaseUiTest.class
+integration\SauceDemoPage.class
